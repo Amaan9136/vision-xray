@@ -10,7 +10,7 @@ import streamlit as st
 from IPython.display import Markdown
 from PIL import Image
 
-genai.configure(api_key="AIzaSyBIa2tTioiCDmpwzwRqniuIHL37IL3HFFs")
+genai.configure(api_key="")
 
 def get_gemini_response(question):
     model = genai.GenerativeModel('gemini-pro')
